@@ -1,6 +1,6 @@
 import { layout } from "./layout";
 
-export default () => {
+export const htmlLogin = () => {
     return layout('Express login',
         `
              <form method="post">

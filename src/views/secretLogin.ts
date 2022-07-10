@@ -1,6 +1,6 @@
 import { layout } from "./layout";
 
-export default () => {
+export const htmlSecretLogin = () => {
     return layout('Error',
         ` <div>
                   <h2>Access denied!</h2>
