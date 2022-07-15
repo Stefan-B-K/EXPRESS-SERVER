@@ -9,7 +9,7 @@ const server = express()
 
 server.use(bodyParser.urlencoded({ extended: true }))
 server.use(cookieSession({ keys: ['sdejo4g6sdhf84'] }))
-server.use(express.static('./build'))
+server.use(express.static('public'))
 server.use(AppRouter.instance)
 
-server.listen(3000, () => console.log('Express running and listening on port 3000 ...'))
+server.listen(3002, () => console.log('Express running and listening on port 3002 ...'))
